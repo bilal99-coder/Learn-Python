@@ -57,3 +57,22 @@ print(msg)
 # if the index is negative, then python starts counting from the end of the # string 
 # if you use the index n: (i.e. msg[2:], python will grab all the elements # after 2)
 print(msg[0])
+
+
+
+msg="""Dear Terry,,
+You must cut down the mightiest 
+tree in the forest with…
+a herring! <3"""
+print(msg)  #This will print the message on different lines, must use """ in the beginning and the end 
+
+# the replace function 
+msg='Welcome to Python 101: Strings'
+print(msg.replace('Python','C'))
+msg1=msg.replace('Python','C')  #Welcome to C 101: Strings
+print(msg1)  #Welcome to C 101: Strings
+
+# does a word exists on the string??
+msg='Welcome to Python 101: Strings'
+print('Python' in msg) #true 
+print('Python' not in msg) #false 
