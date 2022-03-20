@@ -69,10 +69,29 @@ print(msg)  #This will print the message on different lines, must use """ in the
 # the replace function 
 msg='Welcome to Python 101: Strings'
 print(msg.replace('Python','C'))
-msg1=msg.replace('Python','C')  #Welcome to C 101: Strings
+msg1 = msg.replace('Python','C')  #Welcome to C 101: Strings
 print(msg1)  #Welcome to C 101: Strings
 
 # does a word exists on the string??
 msg='Welcome to Python 101: Strings'
 print('Python' in msg) #true 
 print('Python' not in msg) #false 
+
+
+
+name='TERRY'
+color = 'RED'
+msg = '[' + name + '] loves the color ' + color.lower() + '!'
+msg1 = f'[{name}] loves the color {color.lower()}!'
+print(msg)  # [TERRY] loves the color red!  
+print(msg1) # [TERRY] loves the color red!
+
+
+# User input 
+name = input('what\'s your name:')
+print('Your name is '+name)
+
+num1=input('Enter a digit: ')
+num2=input('Enter a second number:')
+answer=float(num1)+float(num2)
+print(answer)
