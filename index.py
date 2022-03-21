@@ -95,3 +95,17 @@ num1=input('Enter a digit: ')
 num2=input('Enter a second number:')
 answer=float(num1)+float(num2)
 print(answer)
+
+
+# - Create a distance converter converting Km to miles
+# - Take two inputs from user: Their first name and the distance in km
+# - Print: Greet user by name and show km, and mile values
+# - 1 mile is 1.609 kilometers
+# - hint: use correct types for calculating and print
+# - Did you capitalize the name
+
+# Creating a distance converter converting Km to miles
+first_name = input('Hei!, what is your name?')
+distance_km = float (input('What is your distance in km?'))
+distance_miles = float(distance_km) / 1.609
+print(f'Hei {first_name.capitalize()}!. Your distance is {distance_km} in km, and {round(distance_miles,1)} in miles')
